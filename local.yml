@@ -14,7 +14,7 @@
 
   - name: copy .zshrc file
     copy:
-      src: dotfiles/zshrc
+      src: files/zshrc
       dest: /home/mentat/.zshrc
       owner: mentat
       group: mentat
