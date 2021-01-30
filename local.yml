@@ -10,3 +10,11 @@
         - htop
         - tmux
         - neovim
+        - zsh
+
+  - name: copy .zshrc file
+    copy:
+      src: dotfiles/zshrc
+      dest: /home/mentat/.zshrc
+      owner: mentat
+      group: mentat
